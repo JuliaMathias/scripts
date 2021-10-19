@@ -1,0 +1,16 @@
+session_name: personal
+windows:
+  - window_name: payment-d
+    layout: main-vertical
+    shell_command_before:
+      - cd ~/Projects/Stone/banking-payment-dispatcher
+    panes:
+      - mix compile
+      - echo second pane
+  - window_name: ex-integrations
+    layout: main-vertical
+    shell_command_before:
+      - cd ~/Projects/Stone/ex-payment-integrations
+    panes:
+      - mix compile
+      - echo second pane

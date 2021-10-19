@@ -1,0 +1,14 @@
+session_name: personal
+windows:
+  - window_name: ex-exercism
+    shell_command_before:
+      - cd ~/Projects/Personal/exercism-elixir
+    panes:
+      - mix compile
+  - window_name: nlw
+    layout: main-vertical
+    shell_command_before:
+      - cd ~/Projects/Personal/node-heat
+    panes:
+      - echo first pane
+      - echo second pane
