@@ -2,4 +2,4 @@
 
 mix deps.get
 mix compile
-code .
+code-insiders .

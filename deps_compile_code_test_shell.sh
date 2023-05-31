@@ -2,5 +2,5 @@
 
 mix deps.get
 mix compile
-code .
+code-insiders .
 make test-shell

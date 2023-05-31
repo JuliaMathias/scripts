@@ -3,4 +3,4 @@
 git pull
 mix deps.get
 mix compile
-code .
+code-insiders .
