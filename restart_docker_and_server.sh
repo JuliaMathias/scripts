@@ -1,3 +1,3 @@
 #! /bin/sh
 
-make down && make run-services &&  make run-backend-shell-tunneled
+make down && make run-services && depscompile && mix ecto.migrate  --log-migrations-sql && make run-backend-shell-tunneled
